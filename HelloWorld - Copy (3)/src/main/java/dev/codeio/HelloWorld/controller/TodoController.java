@@ -1,4 +1,3 @@
-git init
 package dev.codeio.HelloWorld.controller;
 
 import dev.codeio.HelloWorld.service.TodoService;
@@ -71,3 +70,4 @@ public ResponseEntity<Page<Todo>> getTodosPaged(@RequestParam int page, @Request
 
 
 }
+
